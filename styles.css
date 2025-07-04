@@ -1,0 +1,20 @@
+html,body{margin:0;height:100%;overflow:hidden;background:#000;font:14px Arial}
+canvas#c{display:block;width:100vw;height:100vh}
+
+/* control panel */
+#panel{position:fixed;top:10px;left:10px;z-index:20;
+  width:180px;padding:12px;border-radius:8px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: var(--bg);
+  color: var(--text);}
+#panel h2{margin:0 0 10px;font-size:16px}
+#panel label{display:block;margin:6px 0}
+#panel input[type=range]{width:100%}
+#toggle-run{width:100%;margin:10px 0;padding:6px;border:0;border-radius:5px;cursor:pointer}
+#tooltip{position:fixed;pointer-events:none;display:none;padding:3px 6px;
+  background:#111;color:#fff;border-radius:4px;font-size:12px;transform:translate(-50%,-150%)}
+
+/* themes */
+body.dark {--bg:rgba(20,20,20,.65);--text:#eee}
+body.light{--bg:rgba(245,245,245,.8);--text:#111}
