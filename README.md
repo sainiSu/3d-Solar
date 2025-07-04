@@ -34,3 +34,9 @@ This project is a 3D solar system simulation built with [Three.js](https://three
 
 2. Make sure the following folder structure is intact, especially the `/img/` folder containing textures and skybox images:
 
+
+### links 
+
+Github repo link:- https://github.com/sainiSu/3d-Solar
+
+vercel link:-  https://3d-solar-theta.vercel.app/
